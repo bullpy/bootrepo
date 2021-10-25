@@ -1,0 +1,59 @@
+/*changed again++*/
+/* wanna go to old ver*/
+/*this is new version*/
+
+.nav-link:hover{
+  color: black;
+  font-weight: bold;
+  transition-duration: 1s;
+}
+
+.btn-info{
+  color: white !important;
+  border: 1px solid white !important;
+  background-color: transparent !important;
+}
+
+.bg-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('pics/news.jpg');
+  height:80vh !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  color: white !important;
+}
+
+.bg-image p{
+  font-family:serif;
+  margin-top: 50px;
+  font-size: 1.2em;
+}
+
+.card{
+  margin-bottom: 20px !important;
+}
+.card:hover{
+  border: 1px solid black !important;
+  transition-duration: 1s;
+}
+
+.card-body .btn-info{
+  color: black !important;
+  border: 1px solid black !important;
+  background-color: transparent !important;
+}
+.card-body .btn-info:hover{
+  background-color: black !important;
+  color: white !important;
+  transition-duration: 1s;
+}
+
+.col-md-12 button{
+  color: black !important;
+  border: 1px solid black !important;
+}
+
+.img-fluid{
+  border-radius:3px;
+  border: 1px solid black;
+}
